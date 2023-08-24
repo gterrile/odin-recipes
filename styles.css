@@ -1,0 +1,86 @@
+/* index page */
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color:#e63946;
+}
+
+a {
+  text-decoration: none;
+  color: #457b9d;
+  font-size: 28px;
+}
+
+a:hover {
+color: #1d3557;
+font-weight: bold;
+transition: color 0.5s;
+}
+
+.list-none {
+  list-style: none;
+  font-size: 32px;
+  list-style: none;
+}
+
+/* recipe page */
+
+.body-background {
+  background-color: #edede9;
+}
+
+h2 {
+  text-align: center;
+  color: #e63946;
+}
+
+
+img {
+  margin-left: 30%;
+  width: 40%;
+  height: auto;
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+
+img:hover {
+  width: 44%;
+  margin-left: 28%;
+  transition: all 0.5s ease-in-out;
+}
+
+figcaption {
+  font-size: 16px;
+  margin-right: 550px;
+  font-style: italic;
+}
+
+.center-margin {
+  width: 80%;
+  margin-left: 10%;
+  color: #1d3557;
+  font-size: 18px;
+}
+
+.recipe-h3 {
+  color: #457b9d;
+  margin-left: 10%;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+ul li,
+ol li {
+  font-size: 18px;
+  font-style: italic;
+  list-style: circle;
+}
+
+ol li {
+  list-style: decimal;
+}
